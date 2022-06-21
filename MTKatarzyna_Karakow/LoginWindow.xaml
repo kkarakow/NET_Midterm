@@ -1,0 +1,18 @@
+﻿<Window x:Class="MTKatarzyna_Karakow.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MTKatarzyna_Karakow"
+        mc:Ignorable="d"
+        Title="LoginWindow" Height="250" Width="300" BorderBrush="#FFDDA15E">
+    <Canvas Background="#FFFEFAE0">
+        <Label Content="Username:" Canvas.Left="29" Canvas.Top="40" Width="96" FontFamily="Yu Gothic UI"/>
+        <Label Content="Password:" Canvas.Left="29" Canvas.Top="81" Width="96" FontFamily="Yu Gothic UI"/>
+        <TextBox x:Name="txtUsername" Canvas.Left="130" Canvas.Top="44" TextWrapping="Wrap" Width="120"/>
+        <PasswordBox x:Name="txtPassword" Canvas.Left="130" Canvas.Top="85" Width="120"/>
+        <Button x:Name="btnLogin" Content="Login" Canvas.Left="38" Canvas.Top="144" Height="35" Width="78" Click="btnLogin_Click" Background="#FFBC6C25" BorderBrush="#FFDDA15E" FontFamily="Yu Gothic Medium"/>
+        <Button x:Name="btnCancel" Content="Cancel" Canvas.Left="172" Canvas.Top="144" Height="35" Width="78" Click="btnCancel_Click" Background="#FFBC6C25" BorderBrush="#FFDDA15E" FontFamily="Yu Gothic Medium" OpacityMask="#FFFDFBFB"/>
+
+    </Canvas>
+</Window>

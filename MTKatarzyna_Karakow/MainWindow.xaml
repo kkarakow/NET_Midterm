@@ -1,0 +1,15 @@
+﻿<Window x:Class="MTKatarzyna_Karakow.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MTKatarzyna_Karakow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnViewHockey" Content="View Hockey Players" HorizontalAlignment="Center" Margin="0,67,0,0" VerticalAlignment="Top" Height="58" Width="232" Click="btnViewHockey_Click"/>
+        <Button x:Name="btnViewBasketball" Content="View Basketball Players" HorizontalAlignment="Center" Margin="0,159,0,0" VerticalAlignment="Top" Height="58" Width="232" Click="btnViewBasketball_Click"/>
+        <Button x:Name="btnViewBaseball" Content="View Baseball Players" HorizontalAlignment="Center" Margin="0,254,0,0" VerticalAlignment="Top" Height="58" Width="232" Click="btnViewBaseball_Click"/>
+
+    </Grid>
+</Window>
